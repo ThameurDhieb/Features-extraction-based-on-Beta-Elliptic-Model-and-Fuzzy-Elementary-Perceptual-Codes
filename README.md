@@ -5,13 +5,13 @@ The presented code consists of the preprocessing and the segmentation of online 
 - The third features extraction technique using  combination between Advanced Overlapped Beta Strategy and Fuzzy Elementary Perceptual Codes (AOBSFEPC).  
 - The fourth features extraction technique using  combination between Simplified Beta Strategy and Fuzzy Elementary Perceptual Codes (SBSFEPC).    
 
-All details found in our paper https://arxiv.org/abs/1804.05661
+*All details found in our paper https://arxiv.org/abs/1804.05661
 
-* Getting started
+*Getting started
 
-- Run the script with Matlab: Run_BEMFEPC.m
+ Run the script with Matlab: Run_BEMFEPC.m
 
-* What should the person wishing to run this locally do?  
+*What should the person wishing to run this locally do?  
 
 The person wishing to run this locally should do these steps:
 1) Create one folder for each writer in the folder data (for example the folder "1" containing the files .inkml of the writer 1, the folder "2" containing the files .inkml of the writer 2, ...). You can use the folder data for the first Run.
