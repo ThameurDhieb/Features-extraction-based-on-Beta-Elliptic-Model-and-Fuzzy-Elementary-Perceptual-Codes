@@ -15,10 +15,12 @@ The presented code consists of the preprocessing and the segmentation of online 
 
 The person wishing to run this locally should do these steps:
 1) Create one folder for each writer in the folder data (for example the folder "1" containing the files .inkml of the writer 1, the folder "2" containing the files .inkml of the writer 2, ...). You can use the folder data for the first Run.
-2) Modify line 10 : path_folder_Samples = ['../data/',t,'/'];
+2) Modify line 10: path_folder_Samples = ['../data/',t,'/'];
 Line 10 must contain the path of the folder named "data". 
-3) Modify line 11 : path_folder_Results = ['../results/'];
+For example: path_folder_Samples = ['C:\','Features-extraction-based-on-Beta-Elliptic-Model-and-Fuzzy-Elementary-Perceptual-Codes-master\data\',t,'\'];
+3) Create a folder named "results", then modify line 11: path_folder_Results = ['../results/'];
 The results will be saved also in the created folder named "results"
+For example: path_folder_Results = ['C:\','Features-extraction-based-on-Beta-Elliptic-Model-and-Fuzzy-Elementary-Perceptual-Codes-master\results\'];
 
 *Dataset 
 
